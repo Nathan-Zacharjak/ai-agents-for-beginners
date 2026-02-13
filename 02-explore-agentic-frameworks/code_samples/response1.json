@@ -1,0 +1,58 @@
+{
+  "type": "agent_response",
+  "messages": [
+    {
+      "type": "message",
+      "role": "assistant",
+      "contents": [
+        {
+          "type": "function_call",
+          "call_id": "call_cQaI83w6U8DWT2hwHvOeowwG",
+          "name": "get_random_destination",
+          "arguments": "{}",
+          "additional_properties": {}
+        }
+      ],
+      "author_name": "UnnamedAgent",
+      "additional_properties": {}
+    },
+    {
+      "type": "message",
+      "role": "tool",
+      "contents": [
+        {
+          "type": "function_result",
+          "call_id": "call_cQaI83w6U8DWT2hwHvOeowwG",
+          "result": "Bali, Indonesia",
+          "additional_properties": {}
+        }
+      ],
+      "author_name": "UnnamedAgent",
+      "additional_properties": {}
+    },
+    {
+      "type": "message",
+      "role": "assistant",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Let's plan a day trip to Bali, Indonesia! Here's a suggested itinerary for your day:\n\n### Morning\n- **Breakfast at Cafe Organic**: Start your day with a healthy breakfast. Enjoy smoothie bowls and fresh juices.\n\n- **Visit Ubud Monkey Forest**: After breakfast, head to the Ubud Monkey Forest. Explore the lush greenery and interact with the playful monkeys while enjoying the beautiful temples.\n\n### Midday\n- **Explore Ubud Market**: Stroll through the Ubud Art Market and browse local crafts and souvenirs. Be sure to haggle for the best prices!\n\n- **Lunch at Warung Babi Guling Ibu Oka**: Enjoy a delicious traditional Balinese lunch featuring Babi Guling (suckling pig), a local delicacy.\n\n### Afternoon\n- **Tegallalang Rice Terraces**: After lunch, visit the breathtaking Tegallalang Rice Terraces. Take a leisurely walk and enjoy the stunning views.\n\n- **Coffee Tasting**: Stop by a local coffee plantation to sample some of Bali's famous coffee varieties, including Luwak coffee.\n\n### Evening\n- **Sunset at Tanah Lot Temple**: Travel to Tanah Lot, a stunning sea temple, to watch the sunset. The views are absolutely magical!\n\n- **Dinner at Seafood Restaurant**: End your day with dinner at a seaside restaurant, enjoying fresh seafood with a view of the ocean.\n\n### Optional Night Activity\n- **Traditional Balinese Dance Performance**: If you\u2019re not too tired, consider watching a traditional Balinese Kecak dance performance near Ubud or Tanah Lot.\n\nThis itinerary will give you a taste of Bali's vibrant culture, stunning landscapes, and delicious food. Enjoy your trip!",
+          "additional_properties": {}
+        }
+      ],
+      "author_name": "UnnamedAgent",
+      "additional_properties": {}
+    }
+  ],
+  "response_id": "chatcmpl-D8fF0DLcRhAY2hjv4hFvnzIG1Jzrv",
+  "created_at": "2026-02-13T04:38:46.000000Z",
+  "usage_details": {
+    "input_token_count": 144,
+    "output_token_count": 352,
+    "total_token_count": 496
+  },
+  "additional_properties": {
+    "system_fingerprint": "fp_f97eff32c5",
+    "logprobs": null
+  }
+}
